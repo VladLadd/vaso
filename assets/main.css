@@ -1,0 +1,30 @@
+.user-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("./img/user-2 1.svg") no-repeat;
+}
+.main-menu-text {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 36px;
+}
+.main-logo-max {
+    width: 650px;
+    height: 171px;
+    background: url("./img/main-logo-max.png") no-repeat center;
+}
+.bg-flower-1 {
+    width: 100%;
+    height: 1024px;
+    background: url("./img/bg-flower-1.png") no-repeat center;
+}
+
+.pt-96{
+    padding-top: 96px;
+}
+.pt-300{
+    padding-top: 300px;
+}
