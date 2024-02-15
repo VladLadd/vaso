@@ -1,9 +1,13 @@
+* {
+    box-sizing: border-box!important;
+}
 .user-icon {
     display: block;
     width: 50px;
     height: 50px;
     background: url("./img/user-2 1.svg") no-repeat;
 }
+
 .main-menu-text {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 500;
@@ -11,6 +15,7 @@
     font-size: 28px;
     line-height: 36px;
 }
+
 .info-text {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 300;
@@ -26,44 +31,51 @@
     font-size: 25px;
     line-height: 33px;
 }
+
 h1 {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 82px!important;
+    font-size: 82px !important;
     line-height: 107px;
 }
+
 a {
     text-decoration: none;
 }
-.card-text-header{
+
+.card-text-header {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
     line-height: 24px;
 }
-.card-text-md{
+
+.card-text-md {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
     line-height: 16px;
 }
-.online-card-text{
+
+.online-card-text {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 32px;
     line-height: 42px;
 }
-.online-card-btn-text{
+
+.online-card-btn-text {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 24px;
     line-height: 31px;
 }
+
 .phone-text {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 500;
@@ -71,45 +83,61 @@ a {
     font-size: 42px;
     line-height: 55px;
 }
+
 .main-logo-max {
     width: 650px;
     height: 171px;
     background: url("./img/main-logo-max.png") no-repeat center;
 }
+
 .main-logo-md-md {
     width: 249px;
     height: 66px;
     background: url("./img/main-logo-md-md.png") no-repeat center;
 }
+.main-logo-md-sm {
+    width: 249px;
+    height: 66px;
+    background: url("./img/main-logo-md-sm.png") no-repeat center;
+}
+
 .bg-flower-1 {
     width: 100%;
     height: 1024px;
     background: url("./img/bg-flower-1.png") no-repeat center;
 }
+
 .bg-flower-2 {
     width: 100%;
     height: 712px;
     background: url("./img/bg-flower-2.png") no-repeat center;
 }
+
 .no-gutters {
     padding-right: 12px;
     padding-left: 12px;
 }
-.pt-96{
+
+.pt-96 {
     padding-top: 96px;
 }
-.pt-300{
+
+.pt-300 {
     padding-top: 300px;
 }
-.mt-285 {
+
+.mt-line-fist {
     margin-top: 285px;
 }
+
 .h-121 {
     height: 121px;
 }
+
 .bg-purple {
     background: #7474C1;
 }
+
 .purple-card {
     display: flex;
     flex-direction: column;
@@ -120,6 +148,7 @@ a {
     background: rgba(167, 164, 224, 0.81);
     border-radius: 10px;
 }
+
 .btn-order {
     width: 420px;
     height: 90px;
@@ -128,28 +157,33 @@ a {
     background: rgba(116, 116, 193, 0.74);
     box-shadow: none;
 }
-.btn-order> span {
+
+.btn-order > span {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 62px;
     line-height: 50px;
 }
+
 .rating-icon {
     width: 85px;
     height: 85px;
     background: url("./img/rating-icon.png") no-repeat center;
 }
+
 .medal-icon {
     width: 85px;
     height: 85px;
     background: url("./img/medal-icon.png") no-repeat center;
 }
-.delivery-truck-icon{
+
+.delivery-truck-icon {
     width: 85px;
     height: 85px;
     background: url("./img/delivery-truck-icon.png") no-repeat center;
 }
+
 .scroll-line {
     display: flex;
     align-items: center;
@@ -160,6 +194,7 @@ a {
     user-select: none;
     gap: 20px;
 }
+
 .scroll-line:before,
 .scroll-line:after {
     content: "";
@@ -170,6 +205,7 @@ a {
     z-index: 1;
     pointer-events: none;
 }
+
 .items {
     flex-shrink: 0;
     display: flex;
@@ -178,6 +214,7 @@ a {
     justify-content: space-around;
     min-width: 100%;
 }
+
 .item {
     flex: 0 0 auto;
     counter-increment: item;
@@ -189,12 +226,15 @@ a {
     height: 46px;
     background: url("./img/main-logo-md-sm.png") repeat center;
 }
+
 .marquee {
     animation: scroll 25s linear infinite;
 }
+
 .items-wrap:hover .marquee {
     animation-play-state: paused;
 }
+
 @keyframes scroll {
     from {
         transform: translateX(0);
@@ -213,6 +253,7 @@ a {
     height: 526px;
     padding: 15px;
 }
+
 .online-card > .btn {
     width: 242px;
     height: 60px;
@@ -221,6 +262,7 @@ a {
     background: rgba(116, 116, 193, 0.74);
     box-shadow: none;
 }
+
 .contact {
     display: flex;
     align-items: center;
@@ -229,21 +271,39 @@ a {
     padding-left: 40px;
     padding-right: 40px;
 }
+
 .telegram-icon {
     display: block;
     width: 60px;
     height: 60px;
     background: url("./img/telegram-icon.png") no-repeat center;
 }
+
 .vk-icon {
     display: block;
     width: 60px;
     height: 60px;
     background: url("./img/vk-icon.png") no-repeat center;
 }
+
 .whatsapp-icon {
     display: block;
     width: 60px;
     height: 60px;
     background: url("./img/whatsapp-icon.png") no-repeat center;
+}
+
+@media (max-width: 768px) {
+    .mt-line-fist {
+        margin-top: 190px;
+    }
+    .link-btn{
+        width: 210px;
+        border: 1px #ffffff solid;
+        border-radius: 50px;
+    }
+    .main-menu-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
 }
