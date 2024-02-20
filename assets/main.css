@@ -1,6 +1,7 @@
 * {
-    box-sizing: border-box!important;
+    box-sizing: border-box !important;
 }
+
 .user-icon {
     display: block;
     width: 50px;
@@ -95,6 +96,7 @@ a {
     height: 66px;
     background: url("./img/main-logo-md-md.png") no-repeat center;
 }
+
 .main-logo-md-sm {
     width: 249px;
     height: 66px;
@@ -148,11 +150,13 @@ a {
     background: rgba(167, 164, 224, 0.81);
     border-radius: 10px;
 }
+
 .purple-card-max {
     width: 500px;
     background: rgba(167, 164, 224, 0.81);
     border-radius: 10px;
 }
+
 .btn-order {
     width: 420px;
     height: 90px;
@@ -295,19 +299,83 @@ a {
     background: url("./img/whatsapp-icon.png") no-repeat center;
 }
 
+.flower-left-block {
+    width: 100%;
+    height: 100%;
+    min-height: 577px;
+    background: url("./img/card/flower-block.png") no-repeat center;
+    background-size: cover;
+}
+
+.logo-black {
+    width: 180px;
+    height: 48px;
+    background: url("./img/card/logo-black.png") no-repeat center;
+}
+
+.info-text-prod-card {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.header-prod-card {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.purple-place-prod-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #A7A4E0;
+    border-radius: 15px;
+}
+
+.btn-order-prod-card {
+    width: 256px;
+    height: 52px;
+    border-radius: 15px;
+    border: none;
+    background: rgba(116, 116, 193, 0.74);
+    box-shadow: none;
+}
+
+.btn-order-prod-card > span {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 41px;
+}
+.sum-prod-card {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+}
 @media (max-width: 768px) {
     .mt-line-fist {
         margin-top: 190px;
     }
-    .link-btn{
+
+    .link-btn {
         width: 210px;
         border: 1px #ffffff solid;
         border-radius: 50px;
     }
+
     .main-menu-text {
         font-size: 17px;
         line-height: 18px;
     }
+
     h1 {
         font-family: 'Grtsk Peta', sans-serif;
         font-weight: 500;
@@ -331,6 +399,7 @@ a {
         font-size: 15px;
         line-height: 16px;
     }
+
     .phone-text {
         font-family: 'Grtsk Peta', sans-serif;
         font-weight: 500;
