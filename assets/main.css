@@ -85,6 +85,35 @@ a {
     line-height: 55px;
 }
 
+.user-name-workspace {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 62px;
+}
+
+.light-text-workspace {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 62px;
+}
+.normal-text-workspace {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 62px;
+}
+.title-text-workspace {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 83px;
+}
 .main-logo-max {
     width: 650px;
     height: 171px;
@@ -353,6 +382,7 @@ a {
     font-size: 32px;
     line-height: 41px;
 }
+
 .sum-prod-card {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 300;
@@ -360,6 +390,7 @@ a {
     font-size: 24px;
     line-height: 31px;
 }
+
 .viewing-prod-card {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 300;
@@ -367,6 +398,49 @@ a {
     font-size: 12px;
     line-height: 14px;
 }
+
+.toolbar-workspace {
+    height: 169px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #7474C1;
+}
+
+.back-btn-workspace {
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    width: 72px;
+    height: 72px;
+    background: url("./img/workspace/next.svg") no-repeat center;
+    border: none;
+    box-shadow: none;
+}
+
+.client-card-workspace {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background: #A7A4E0;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1098px;
+    min-height: 400px;
+}
+
+.info-icon-workspace {
+    position: absolute;
+    top: 0;
+    right: 46px;
+    width: 64px;
+    height: 64px;
+    background: url("./img/workspace/info.svg") no-repeat center;
+}
+
 @media (max-width: 768px) {
     .mt-line-fist {
         margin-top: 190px;
