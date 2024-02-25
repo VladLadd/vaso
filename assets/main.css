@@ -495,7 +495,8 @@ a {
 }
 
 .status-card-workspace img {
-    width: 416px;
+    width: 100%;
+    max-width: 416px;
     height: 459px;
 }
 
