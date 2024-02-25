@@ -7,6 +7,7 @@
     width: 50px;
     height: 50px;
     background: url("./img/user-2 1.svg") no-repeat;
+    border: 0px;
 }
 
 .main-menu-text {
@@ -132,6 +133,7 @@ a {
     font-size: 24px;
     line-height: 31px;
 }
+
 .support-md-text-workspace {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 300;
@@ -139,6 +141,7 @@ a {
     font-size: 24px;
     line-height: 31px;
 }
+
 .support-lg-text-workspace {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 500;
@@ -154,6 +157,7 @@ a {
     font-size: 28px;
     line-height: 31px;
 }
+
 .support-lg-normal-text-workspace {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 400;
@@ -161,6 +165,15 @@ a {
     font-size: 32px;
     line-height: 41px;
 }
+
+.auth-menu-title {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43px;
+}
+
 .main-logo-max {
     width: 650px;
     height: 171px;
@@ -319,6 +332,29 @@ a {
     animation-play-state: paused;
 }
 
+.auth-menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.offcanvas.offcanvas-end {
+    width: 560px!important;
+}
+.auth-menu input[type="tel"] {
+    width: 200px !important;
+    height: 40px !important;
+    border: 0;
+}
+.line-input {
+    border-bottom: 1px solid #D1CDCD;
+}
+.offcanvas-end .btn-close {
+    width: 30px!important;
+    height: 30px!important;
+}
 @keyframes scroll {
     from {
         transform: translateX(0);
@@ -533,6 +569,7 @@ a {
     height: 128px;
     background: url("./img/workspace/support-icon.svg") no-repeat center;
 }
+
 .logout-icon {
     display: block;
     width: 80px;
