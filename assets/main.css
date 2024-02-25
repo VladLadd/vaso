@@ -100,6 +100,7 @@ a {
     font-size: 48px;
     line-height: 62px;
 }
+
 .normal-text-workspace {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 500;
@@ -107,12 +108,58 @@ a {
     font-size: 48px;
     line-height: 62px;
 }
+
 .title-text-workspace {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 64px;
     line-height: 83px;
+}
+
+.status-card-text-title-workspace {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.status-card-text-main-workspace {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+}
+.support-md-text-workspace {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+}
+.support-lg-text-workspace {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 41px;
+}
+
+.support-md-md-text-workspace {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 31px;
+}
+.support-lg-normal-text-workspace {
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 41px;
 }
 .main-logo-max {
     width: 650px;
@@ -439,6 +486,57 @@ a {
     width: 64px;
     height: 64px;
     background: url("./img/workspace/info.svg") no-repeat center;
+}
+
+.status-card-workspace {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.status-card-workspace img {
+    width: 416px;
+    height: 459px;
+}
+
+.btn-chat-status-card-workspace {
+    width: 304px;
+    height: 49px;
+    border-radius: 15px;
+    border: none;
+    background: rgba(116, 116, 193, 0.74);
+    box-shadow: none;
+}
+
+.order-line-workspace img {
+    width: 354px;
+    height: 400px;
+}
+
+.divider-line {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D1CDCD;
+}
+
+.support-workspace {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.support-icon {
+    display: block;
+    width: 128px;
+    height: 128px;
+    background: url("./img/workspace/support-icon.svg") no-repeat center;
+}
+.logout-icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url("./img/workspace/logout-icon.svg") no-repeat center;
 }
 
 @media (max-width: 768px) {
