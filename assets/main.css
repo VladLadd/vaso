@@ -2,12 +2,16 @@
     box-sizing: border-box !important;
 }
 
+
 .user-icon {
     display: block;
     width: 50px;
     height: 50px;
     background: url("./img/user-2 1.svg") no-repeat;
     border: 0px;
+    position: absolute;
+    top: 100px;
+    right: 140px
 }
 
 .main-menu-text {
@@ -196,6 +200,7 @@ a {
     width: 100%;
     height: 1024px;
     background: url("./img/bg-flower-1.png") no-repeat center;
+    background-size: cover;
 }
 
 .bg-flower-2 {
@@ -218,7 +223,7 @@ a {
 }
 
 .mt-line-fist {
-    margin-top: 285px;
+    margin-top: 300px;
 }
 
 .h-121 {
@@ -227,6 +232,13 @@ a {
 
 .bg-purple {
     background: #7474C1;
+}
+
+.bg-purple .logo-block {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: max-content;
 }
 
 .purple-card {
@@ -246,16 +258,16 @@ a {
     border-radius: 10px;
 }
 
-.btn-order {
+.btn-order > .btn {
     width: 420px;
     height: 90px;
     border-radius: 30px;
     border: none;
-    background: rgba(116, 116, 193, 0.74);
+    background: rgba(116, 116, 193, 0.84);
     box-shadow: none;
 }
 
-.btn-order > span {
+.btn-order > .btn > span {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -340,21 +352,26 @@ a {
     padding-right: 50px;
     padding-left: 50px;
 }
+
 .offcanvas.offcanvas-end {
-    width: 560px!important;
+    width: 560px !important;
 }
+
 .auth-menu input[type="tel"] {
     width: 200px !important;
     height: 40px !important;
     border: 0;
 }
+
 .line-input {
     border-bottom: 1px solid #D1CDCD;
 }
+
 .offcanvas-end .btn-close {
-    width: 30px!important;
-    height: 30px!important;
+    width: 30px !important;
+    height: 30px !important;
 }
+
 @keyframes scroll {
     from {
         transform: translateX(0);
