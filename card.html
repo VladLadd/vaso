@@ -10,16 +10,48 @@
     <link href="assets/font/stylesheet.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="container-md">
+<div class="container-md px-0 px-md-3">
     <div class="d-flex">
         <div class="col-4 d-lg-block d-none">
             <div class="flower-left-block"></div>
         </div>
-        <div class="col-12 col-lg-8 px-4 pt-4 bg-flower-left-block">
-            <div class="row no-gutters">
+        <div class="col-12 col-lg-8 px-md-4 pt-4">
+            <div class="row justify-content-center justify-content-md-start no-gutters">
                 <div class="logo-black"></div>
             </div>
-            <div class="row no-gutters mt-5">
+            <div class="d-flex d-md-none mt-3">
+                <div class="flower-left-block"></div>
+            </div>
+            <div class="d-flex d-md-none no-gutters px-4 px-md-0 my-3">
+                <span class="sum-prod-card">8 299</span>
+            </div>
+            <div class="d-flex d-md-none no-gutters px-4 px-md-0 my-3">
+                <div class="accordion w-100" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="description-workspace-btn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                <span class="d-flex justify-content-between pb-2"><span class="description-workspace-text">ОПИСАНИЕ</span><span class="plus-icon">+</span> </span>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body px-0">
+                                <div class="d-flex flex-column">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="check-icon"></i> <span class="ms-2">Букет собран и готов к доставке</span>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="free-icon"></i> <span class="ms-2">Бесплатная доставка</span>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="diamond-icon"></i> <span class="ms-2">Гарантия качества</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-flex d-none no-gutters mt-5">
                 <p class="info-text-prod-card">
                     Погрузитесь в мир королевских оттенков с нашим букетом "Пурпурное Великолепие". Это произведение
                     искусства великолепно сочетает оттенки пурпурного, от нежного сиреневого до насыщенного фиолетового
@@ -29,10 +61,10 @@
                     изысканности и подойдет для самых особенных моментов.
                 </p>
             </div>
-            <div class="row no-gutters mt-2">
+            <div class="d-flex no-gutters px-4 px-md-0 mt-2">
                 <h2 class="header-prod-card">Оформление заказа</h2>
             </div>
-            <div class="row no-gutters">
+            <div class="row no-gutters px-4 px-md-0">
                 <form>
                     <div class="place-prod-card py-4">
                         <div class="mb-3">
@@ -60,16 +92,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row no-gutters my-2">
+                    <div class="d-md-flex d-none no-gutters my-2">
                         <span class="sum-prod-card">Сумма заказа: 8 299</span>
                     </div>
-                    <div class="row no-gutters mt-2">
-                        <button type="submit" class="btn-order-prod-card ">
+                    <div class="row no-gutters btn-order-prod-card mt-2">
+                        <button type="submit" class="btn">
                             <span class="text-white">Заказать</span>
                         </button>
                     </div>
 
-                    <div class="row no-gutters mt-2">
+                    <div class="d-md-flex d-none no-gutters mt-2">
                         <span class="viewing-prod-card">Букет сейчас просматривают 3 человека</span>
                     </div>
                 </form>
@@ -80,4 +112,6 @@
 </div>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </html>
