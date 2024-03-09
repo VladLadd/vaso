@@ -667,14 +667,6 @@ a {
     background: url("./img/workspace/logout-icon.svg") no-repeat center;
 }
 
-.btn-order-prod-card > .btn {
-    width: 100%;
-    height: 52px;
-    border-radius: 15px;
-    border: none;
-    background: rgba(116, 116, 193, 0.74);
-    box-shadow: none;
-}
 
 .description-workspace-text {
     font-family: 'Grtsk Peta', sans-serif;
@@ -802,6 +794,15 @@ a {
         font-style: normal;
         font-size: 30px;
         line-height: 62px;
+    }
+
+    .btn-order-prod-card > .btn {
+        width: 100%;
+        height: 52px;
+        border-radius: 15px;
+        border: none;
+        background: rgba(116, 116, 193, 0.74);
+        box-shadow: none;
     }
 }
 
