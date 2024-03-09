@@ -10,18 +10,18 @@
     display: block;
     width: 50px;
     height: 50px;
-    background: url("./img/user-2 1.svg") no-repeat;
+    background: url("./img/user-lg.svg") no-repeat;
     border: 0px;
     position: absolute;
     top: 100px;
-    right: 140px
+    right: 15%
 }
 
 #workspce .user-icon {
     display: block;
     width: 50px;
     height: 50px;
-    background: url("./img/user-2 1.svg") no-repeat;
+    background: url("./img/user-lg.svg") no-repeat;
     border: 0px;
 }
 
@@ -100,7 +100,6 @@ a {
     font-size: 34px;
     line-height: 55px;
 }
-
 .user-name-workspace {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 600;
@@ -232,6 +231,8 @@ a {
 }
 
 .bg-flower-1 {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 1024px;
     background: url("./img/bg-flower-1.png") no-repeat center;
@@ -258,7 +259,7 @@ a {
 }
 
 .mt-line-fist {
-    margin-top: 300px;
+    margin-top: auto;
 }
 
 .h-121 {
@@ -660,6 +661,7 @@ a {
 
 .logout-icon {
     display: block;
+    border: none;
     width: 30px;
     height: 30px;
     background: url("./img/workspace/logout-icon.svg") no-repeat center;
@@ -703,10 +705,16 @@ a {
 }
 
 @media (max-width: 768px) {
-    .mt-line-fist {
-        margin-top: 190px;
+    #main .user-icon {
+        display: block;
+        width: 35px;
+        height: 35px;
+        background: url("./img/user-md.svg") no-repeat;
+        border: 0px;
+        position: absolute;
+        top: 100px;
+        right: 15%
     }
-
     .link-btn {
         width: 210px;
         border: 1px #ffffff solid;
@@ -725,7 +733,12 @@ a {
         font-size: 56px !important;
         line-height: 36px;
     }
-
+    .bg-purple .logo-block {
+        position: absolute;
+        top: 30px;
+        left: calc(50% - 124px);
+        width: max-content;
+    }
     .card-text-header {
         font-family: 'Grtsk Peta', sans-serif;
         font-weight: 400;
@@ -783,6 +796,13 @@ a {
         width: 36px;
         height: 36px;
         background: url("./img/workspace/diamond-icon.svg") no-repeat;
+    }
+    .light-text-workspace {
+        font-family: 'Grtsk Peta', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 62px;
     }
 }
 
