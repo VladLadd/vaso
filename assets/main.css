@@ -140,7 +140,7 @@ a {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 42px;
 }
 
@@ -148,7 +148,7 @@ a {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 31px;
 }
 
@@ -156,7 +156,7 @@ a {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 31px;
 }
 
@@ -180,7 +180,7 @@ a {
     font-family: 'Grtsk Peta', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 41px;
 }
 
@@ -606,8 +606,8 @@ a {
 
 .status-card-workspace img {
     width: 100%;
-    max-width: 416px;
-    height: 459px;
+    max-width: 328px;
+    height: 362px;
 }
 
 .btn-chat-status-card-workspace {
@@ -642,8 +642,8 @@ a {
 }
 
 .order-line-workspace img {
-    width: 327px;
-    height: 400px;
+    width: 328px;
+    height: 362px;
 }
 
 .divider-line {
@@ -661,8 +661,8 @@ a {
 
 .support-icon {
     display: block;
-    width: 128px;
-    height: 128px;
+    width: 64px;
+    height: 64px;
     background: url("./img/workspace/support-icon.svg") no-repeat center;
 }
 
